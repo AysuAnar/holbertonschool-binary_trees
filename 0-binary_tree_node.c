@@ -1,6 +1,7 @@
 #include "binary_trees.h"
 
 /**
+ * binary_tree_node - Create a binary node
  * struct binary_tree_s - Binary tree node
  * @parent: Pointer to the parent node
  * @left: Pointer to the left child node
@@ -20,5 +21,5 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	new->left = NULL;
 	new->right = NULL;
 
-	return (new) ;
+	return (new);
 }
